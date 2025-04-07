@@ -1,0 +1,33 @@
+[7.908s] Invoking command in '/home/OSTR/modem_ws2/src/py_pubsub': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[10.518s] running egg_info
+[10.726s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[10.728s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[10.731s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[10.732s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[10.734s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[11.154s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.157s] adding license file 'LICENSE'
+[11.163s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.164s] running build
+[11.165s] running build_py
+[11.171s] copying py_pubsub/fishturn.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.175s] running install
+[11.232s] running install_lib
+[11.447s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishturn.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.455s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishturn.py to fishturn.cpython-312.pyc
+[11.463s] running install_data
+[11.465s] running install_egg_info
+[11.683s] removing '/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[11.686s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[11.697s] running install_scripts
+[13.101s] Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.102s] Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.104s] Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.106s] Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.108s] Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.109s] Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.111s] Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.113s] Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.115s] Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.119s] writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'
+[13.411s] Invoked command in '/home/OSTR/modem_ws2/src/py_pubsub' returned '0': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

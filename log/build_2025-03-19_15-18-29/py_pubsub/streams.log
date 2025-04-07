@@ -1,0 +1,49 @@
+[7.940s] Invoking command in '/home/OSTR/modem_ws2/src/py_pubsub': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[10.486s] running egg_info
+[10.687s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[10.689s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[10.692s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[10.693s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[10.695s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[11.106s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.109s] adding license file 'LICENSE'
+[11.115s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.116s] running build
+[11.117s] running build_py
+[11.119s] copying py_pubsub/fishHub.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.121s] copying py_pubsub/fishtemp.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.126s] copying py_pubsub/fishtran.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.130s] running install
+[11.186s] running install_lib
+[11.389s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishHub.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.392s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishtemp.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.397s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishtran.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.402s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishHub.py to fishHub.cpython-312.pyc
+[11.411s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtemp.py to fishtemp.cpython-312.pyc
+[11.413s]   File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtemp.py", line 16
+[11.414s]     def death(self,msg)
+[11.415s]                        ^
+[11.416s] SyntaxError: expected ':'
+[11.417s] 
+[11.418s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtran.py to fishtran.cpython-312.pyc
+[11.420s]   File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtran.py", line 37
+[11.422s]     self.subscription_return = self.create_subscription(Int32, 'return' self.command_callback,10)
+[11.423s]                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[11.423s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[11.424s] 
+[11.425s] running install_data
+[11.426s] running install_egg_info
+[11.635s] removing '/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[11.638s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[11.649s] running install_scripts
+[13.050s] Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.052s] Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.053s] Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.055s] Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.057s] Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.059s] Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.060s] Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.062s] Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.064s] Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.068s] writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'
+[13.360s] Invoked command in '/home/OSTR/modem_ws2/src/py_pubsub' returned '0': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

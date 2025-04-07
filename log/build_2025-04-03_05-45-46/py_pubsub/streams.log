@@ -1,0 +1,43 @@
+[8.400s] Invoking command in '/home/OSTR/modem_ws2/src/py_pubsub': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[11.186s] running egg_info
+[11.402s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[11.405s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[11.407s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[11.409s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[11.410s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[11.849s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.852s] adding license file 'LICENSE'
+[11.859s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.860s] running build
+[11.861s] running build_py
+[11.864s] copying py_pubsub/fishtemp.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.873s] running install
+[11.929s] running install_lib
+[12.149s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishtemp.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[12.160s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtemp.py to fishtemp.cpython-312.pyc
+[12.169s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/boyancy_contoler.py to boyancy_contoler.cpython-312.pyc
+[12.172s]   File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/boyancy_contoler.py", line 20
+[12.173s]     def run(self)
+[12.174s]                  ^
+[12.175s] SyntaxError: expected ':'
+[12.176s] 
+[12.177s] running install_data
+[12.178s] running install_egg_info
+[12.400s] removing '/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[12.404s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[12.414s] running install_scripts
+[13.883s] Installing fishbouyancy script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.885s] Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.886s] Installing fishfake script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.888s] Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.890s] Installing fishimu script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.892s] Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.894s] Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.895s] Installing fishtemp script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.897s] Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.899s] Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.901s] Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.903s] Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.905s] Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.910s] writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'
+[14.215s] Invoked command in '/home/OSTR/modem_ws2/src/py_pubsub' returned '0': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

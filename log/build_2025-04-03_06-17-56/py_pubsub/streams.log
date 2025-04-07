@@ -1,0 +1,37 @@
+[8.154s] Invoking command in '/home/OSTR/modem_ws2/src/py_pubsub': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[10.840s] running egg_info
+[11.056s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[11.058s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[11.061s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[11.063s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[11.064s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[11.495s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.499s] adding license file 'LICENSE'
+[11.504s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.506s] running build
+[11.507s] running build_py
+[11.510s] copying py_pubsub/fishtemp.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.519s] running install
+[11.576s] running install_lib
+[11.792s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishtemp.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.802s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtemp.py to fishtemp.cpython-312.pyc
+[11.813s] running install_data
+[11.814s] running install_egg_info
+[12.038s] removing '/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[12.042s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[12.052s] running install_scripts
+[13.512s] Installing fishbouyancy script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.514s] Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.516s] Installing fishfake script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.518s] Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.520s] Installing fishimu script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.522s] Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.524s] Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.525s] Installing fishtemp script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.527s] Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.529s] Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.531s] Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.533s] Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.535s] Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.540s] writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'
+[13.845s] Invoked command in '/home/OSTR/modem_ws2/src/py_pubsub' returned '0': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+[14.890s] Invoking command in '/home/OSTR/modem_ws2/src/py_pubsub': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[16.045s] running egg_info
+[16.341s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[16.344s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[16.347s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[16.349s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[16.351s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[16.947s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[16.951s] adding license file 'LICENSE'
+[16.958s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[16.960s] running build
+[16.961s] running build_py
+[16.965s] copying py_pubsub/fishimu.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[16.977s] running install
+[17.047s] running install_lib
+[17.341s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishimu.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[17.353s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishimu.py to fishimu.cpython-312.pyc
+[17.374s] running install_data
+[17.376s] running install_egg_info
+[17.679s] removing '/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)
+[17.682s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[17.700s] running install_scripts
+[19.610s] Installing fishbouyancy script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.612s] Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.614s] Installing fishfake script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.616s] Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.618s] Installing fishimu script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.620s] Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.621s] Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.623s] Installing fishtemp script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.625s] Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.627s] Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.629s] Installing fldigirx script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.631s] Installing fldigitx script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.636s] Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.640s] Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.644s] Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[19.649s] writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'
+[20.013s] Invoked command in '/home/OSTR/modem_ws2/src/py_pubsub' returned '0': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

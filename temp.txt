@@ -1,0 +1,16 @@
+24.6875
+24.5625
+24.625
+24.5625
+24.5625
+24.5625
+24.5625
+24.5625
+The Temperature in Fahrenhrit: 24.5625
+The Temperature in Fahrenhrit: 24.5Degrees at07:24:18
+The Temperature in Fahrenhrit: 24.5Degrees at 07:25:29
+The Temperature in Fahrenhrit: 24.4375 Degrees at 07:26:47
+The Temperature in Fahrenhrit: 26.25 Degrees at 11:30:48
+The Temperature in Fahrenhrit: 26.125 Degrees at 11:47:04
+The Temperature in Fahrenhrit: 26.125 Degrees at 11:47:45
+The Temperature in Fahrenhrit: 18.4375 Degrees at 08:07:55

@@ -1,0 +1,10 @@
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtemp.py", line 16
+    def death(self,msg)
+                       ^
+SyntaxError: expected ':'
+
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtran.py", line 37
+    self.subscription_return = self.create_subscription(Int32, 'return' self.command_callback,10)
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

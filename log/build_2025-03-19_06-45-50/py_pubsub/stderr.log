@@ -1,0 +1,10 @@
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishturn.py", line 43
+    def local(self)
+                   ^
+SyntaxError: expected ':'
+
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtran.py", line 70
+    def ack(self)
+                 ^
+SyntaxError: expected ':'
+

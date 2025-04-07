@@ -1,0 +1,5 @@
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishimu.py", line 58
+    imu_info.write(str((msg.data))
+                  ^
+SyntaxError: '(' was never closed
+

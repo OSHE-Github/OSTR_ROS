@@ -1,0 +1,16 @@
+[console_scripts]
+fishbouyancy = py_pubsub.boyancy_contoler:main
+fishdepth = py_pubsub.fishdepth:main
+fishfake = py_pubsub.fakefishrecv:main
+fishhub = py_pubsub.fishHub:main
+fishimu = py_pubsub.fishimu:main
+fishrec = py_pubsub.fishrec:main
+fishspeed = py_pubsub.fishspeed:main
+fishtemp = py_pubsub.fishtemp:main
+fishtran = py_pubsub.fishtran:main
+fishturn = py_pubsub.fishturn:main
+fldigirx = py_pubsub.fldigirx:main
+fldigitx = py_pubsub.fldigitx:main
+hub = py_pubsub.hub:main
+receive = py_pubsub.receiver:main
+transmit = py_pubsub.transmitter:main

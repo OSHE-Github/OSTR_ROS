@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.001610] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003110] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098602] (-) TimerEvent: {}
+[0.199901] (-) TimerEvent: {}
+[0.301120] (-) TimerEvent: {}
+[0.402578] (-) TimerEvent: {}
+[0.503754] (-) TimerEvent: {}
+[0.604908] (-) TimerEvent: {}
+[0.706027] (-) TimerEvent: {}
+[0.807097] (-) TimerEvent: {}
+[0.908296] (-) TimerEvent: {}
+[1.009497] (-) TimerEvent: {}
+[1.110545] (-) TimerEvent: {}
+[1.211657] (-) TimerEvent: {}
+[1.312795] (-) TimerEvent: {}
+[1.413914] (-) TimerEvent: {}
+[1.515066] (-) TimerEvent: {}
+[1.616246] (-) TimerEvent: {}
+[1.717442] (-) TimerEvent: {}
+[1.818500] (-) TimerEvent: {}
+[1.919590] (-) TimerEvent: {}
+[2.020913] (-) TimerEvent: {}
+[2.122134] (-) TimerEvent: {}
+[2.223515] (-) TimerEvent: {}
+[2.324649] (-) TimerEvent: {}
+[2.425768] (-) TimerEvent: {}
+[2.526923] (-) TimerEvent: {}
+[2.628043] (-) TimerEvent: {}
+[2.729403] (-) TimerEvent: {}
+[2.830612] (-) TimerEvent: {}
+[2.931847] (-) TimerEvent: {}
+[3.032956] (-) TimerEvent: {}
+[3.134065] (-) TimerEvent: {}
+[3.235192] (-) TimerEvent: {}
+[3.336371] (-) TimerEvent: {}
+[3.437432] (-) TimerEvent: {}
+[3.538504] (-) TimerEvent: {}
+[3.639508] (-) TimerEvent: {}
+[3.740530] (-) TimerEvent: {}
+[3.841602] (-) TimerEvent: {}
+[3.942697] (-) TimerEvent: {}
+[4.043800] (-) TimerEvent: {}
+[4.144938] (-) TimerEvent: {}
+[4.246074] (-) TimerEvent: {}
+[4.347152] (-) TimerEvent: {}
+[4.448291] (-) TimerEvent: {}
+[4.549422] (-) TimerEvent: {}
+[4.650487] (-) TimerEvent: {}
+[4.751487] (-) TimerEvent: {}
+[4.852535] (-) TimerEvent: {}
+[4.953517] (-) TimerEvent: {}
+[5.054542] (-) TimerEvent: {}
+[5.155668] (-) TimerEvent: {}
+[5.256784] (-) TimerEvent: {}
+[5.357901] (-) TimerEvent: {}
+[5.459047] (-) TimerEvent: {}
+[5.560409] (-) TimerEvent: {}
+[5.661501] (-) TimerEvent: {}
+[5.762676] (-) TimerEvent: {}
+[5.863785] (-) TimerEvent: {}
+[5.964823] (-) TimerEvent: {}
+[6.065956] (-) TimerEvent: {}
+[6.167109] (-) TimerEvent: {}
+[6.268255] (-) TimerEvent: {}
+[6.369423] (-) TimerEvent: {}
+[6.470490] (-) TimerEvent: {}
+[6.571535] (-) TimerEvent: {}
+[6.672693] (-) TimerEvent: {}
+[6.773822] (-) TimerEvent: {}
+[6.874922] (-) TimerEvent: {}
+[6.976023] (-) TimerEvent: {}
+[7.077159] (-) TimerEvent: {}
+[7.178249] (-) TimerEvent: {}
+[7.279438] (-) TimerEvent: {}
+[7.380492] (-) TimerEvent: {}
+[7.481504] (-) TimerEvent: {}
+[7.582639] (-) TimerEvent: {}
+[7.683980] (-) TimerEvent: {}
+[7.785390] (-) TimerEvent: {}
+[7.886604] (-) TimerEvent: {}
+[7.946714] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/OSTR/modem_ws2/build/py_pubsub/build', 'install', '--record', '/home/OSTR/modem_ws2/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/OSTR/modem_ws2/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'MAIL': '/var/mail/OSTR', 'USER': 'OSTR', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/OSTR', 'OLDPWD': '/home/OSTR', 'HUSHLOGIN': 'FALSE', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '1312', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/OSTR/modem_ws2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'OSTR', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/system.slice/system-getty.slice/getty@tty2.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'TERM': 'linux', 'XDG_SESSION_ID': '7', 'PATH': '/home/OSTR/.local/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/OSTR/.local/bin:/home/OSTR/.local/bin', 'INVOCATION_ID': 'e6db0a0aed234182854d9fc9d119b684', 'CREDENTIALS_DIRECTORY': '/run/credentials/getty@tty2.service', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/OSTR/modem_ws2/install/py_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '2', 'PWD': '/home/OSTR/modem_ws2/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.986892] (-) TimerEvent: {}
+[8.088091] (-) TimerEvent: {}
+[8.189232] (-) TimerEvent: {}
+[8.290482] (-) TimerEvent: {}
+[8.391575] (-) TimerEvent: {}
+[8.492677] (-) TimerEvent: {}
+[8.593781] (-) TimerEvent: {}
+[8.694923] (-) TimerEvent: {}
+[8.796101] (-) TimerEvent: {}
+[8.897396] (-) TimerEvent: {}
+[8.998498] (-) TimerEvent: {}
+[9.099513] (-) TimerEvent: {}
+[9.200518] (-) TimerEvent: {}
+[9.301538] (-) TimerEvent: {}
+[9.402539] (-) TimerEvent: {}
+[9.503709] (-) TimerEvent: {}
+[9.604838] (-) TimerEvent: {}
+[9.705989] (-) TimerEvent: {}
+[9.807045] (-) TimerEvent: {}
+[9.908179] (-) TimerEvent: {}
+[10.009303] (-) TimerEvent: {}
+[10.110492] (-) TimerEvent: {}
+[10.211513] (-) TimerEvent: {}
+[10.312543] (-) TimerEvent: {}
+[10.413619] (-) TimerEvent: {}
+[10.514739] (-) TimerEvent: {}
+[10.575457] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[10.614961] (-) TimerEvent: {}
+[10.716089] (-) TimerEvent: {}
+[10.786427] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[10.788546] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[10.791069] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[10.792600] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[10.794017] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[10.816440] (-) TimerEvent: {}
+[10.917477] (-) TimerEvent: {}
+[11.018526] (-) TimerEvent: {}
+[11.119550] (-) TimerEvent: {}
+[11.218550] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[11.219564] (-) TimerEvent: {}
+[11.222004] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[11.227509] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[11.228878] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[11.229987] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[11.233096] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/fishimu.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub\n'}
+[11.240501] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[11.295959] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[11.319823] (-) TimerEvent: {}
+[11.420913] (-) TimerEvent: {}
+[11.508618] (py_pubsub) StdoutLine: {'line': b'copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishimu.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[11.518200] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishimu.py to fishimu.cpython-312.pyc\n'}
+[11.521155] (-) TimerEvent: {}
+[11.528613] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[11.529999] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.621477] (-) TimerEvent: {}
+[11.722507] (-) TimerEvent: {}
+[11.747837] (py_pubsub) StdoutLine: {'line': b"removing '/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[11.751173] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[11.761861] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[11.822809] (-) TimerEvent: {}
+[11.923873] (-) TimerEvent: {}
+[12.024928] (-) TimerEvent: {}
+[12.126065] (-) TimerEvent: {}
+[12.227180] (-) TimerEvent: {}
+[12.328375] (-) TimerEvent: {}
+[12.429470] (-) TimerEvent: {}
+[12.530493] (-) TimerEvent: {}
+[12.631495] (-) TimerEvent: {}
+[12.732485] (-) TimerEvent: {}
+[12.833512] (-) TimerEvent: {}
+[12.934549] (-) TimerEvent: {}
+[13.035727] (-) TimerEvent: {}
+[13.136849] (-) TimerEvent: {}
+[13.191129] (py_pubsub) StdoutLine: {'line': b'Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.192898] (py_pubsub) StdoutLine: {'line': b'Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.194579] (py_pubsub) StdoutLine: {'line': b'Installing fishimu script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.196215] (py_pubsub) StdoutLine: {'line': b'Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.197964] (py_pubsub) StdoutLine: {'line': b'Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.199588] (py_pubsub) StdoutLine: {'line': b'Installing fishtemp script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.201691] (py_pubsub) StdoutLine: {'line': b'Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.203519] (py_pubsub) StdoutLine: {'line': b'Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.205101] (py_pubsub) StdoutLine: {'line': b'Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.206945] (py_pubsub) StdoutLine: {'line': b'Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.208584] (py_pubsub) StdoutLine: {'line': b'Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub\n'}
+[13.213352] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'\n"}
+[13.237180] (-) TimerEvent: {}
+[13.338542] (-) TimerEvent: {}
+[13.439763] (-) TimerEvent: {}
+[13.503173] (py_pubsub) CommandEnded: {'returncode': 0}
+[13.540279] (-) TimerEvent: {}
+[13.590150] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[13.596139] (-) EventReactorShutdown: {}

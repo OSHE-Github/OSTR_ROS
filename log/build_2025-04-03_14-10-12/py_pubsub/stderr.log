@@ -1,0 +1,5 @@
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishdepth.py", line 69
+    n = input(number: )
+                    ^
+SyntaxError: invalid syntax
+

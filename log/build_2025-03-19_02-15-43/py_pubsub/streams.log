@@ -1,0 +1,79 @@
+[8.026s] Invoking command in '/home/OSTR/modem_ws2/src/py_pubsub': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data
+[10.652s] running egg_info
+[10.654s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[10.858s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[10.860s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[10.862s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[10.864s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[10.865s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[10.866s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.287s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.289s] adding license file 'LICENSE'
+[11.294s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[11.295s] running build
+[11.296s] running build_py
+[11.297s] creating /home/OSTR/modem_ws2/build/py_pubsub/build
+[11.299s] creating /home/OSTR/modem_ws2/build/py_pubsub/build/lib
+[11.300s] creating /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.301s] copying py_pubsub/fishrec.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.302s] copying py_pubsub/fishHub.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.304s] copying py_pubsub/transmitter.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.305s] copying py_pubsub/OSTR_hat_code.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.307s] copying py_pubsub/setupDoNotUse.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.309s] copying py_pubsub/__init__.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.310s] copying py_pubsub/fishdepth.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.312s] copying py_pubsub/fishspeed.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.314s] copying py_pubsub/receiver.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.315s] copying py_pubsub/receiver_old.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.317s] copying py_pubsub/fishturn.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.319s] copying py_pubsub/hub.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.320s] copying py_pubsub/fishtran.py -> /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub
+[11.323s] running install
+[11.380s] running install_lib
+[11.586s] creating /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.587s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishrec.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.589s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishHub.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.590s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/transmitter.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.592s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/OSTR_hat_code.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.594s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/setupDoNotUse.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.596s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.597s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishdepth.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.599s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishspeed.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.601s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/receiver.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.602s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/receiver_old.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.604s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishturn.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.606s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/hub.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.608s] copying /home/OSTR/modem_ws2/build/py_pubsub/build/lib/py_pubsub/fishtran.py -> /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[11.612s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishrec.py to fishrec.cpython-312.pyc
+[11.623s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishHub.py to fishHub.cpython-312.pyc
+[11.630s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/transmitter.py to transmitter.cpython-312.pyc
+[11.637s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/OSTR_hat_code.py to OSTR_hat_code.cpython-312.pyc
+[11.645s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/setupDoNotUse.py to setupDoNotUse.cpython-312.pyc
+[11.648s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[11.651s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishdepth.py to fishdepth.cpython-312.pyc
+[11.657s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishspeed.py to fishspeed.cpython-312.pyc
+[11.662s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/receiver.py to receiver.cpython-312.pyc
+[11.673s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/receiver_old.py to receiver_old.cpython-312.pyc
+[11.682s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishturn.py to fishturn.cpython-312.pyc
+[11.687s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/hub.py to hub.cpython-312.pyc
+[11.693s] byte-compiling /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtran.py to fishtran.cpython-312.pyc
+[11.700s] running install_data
+[11.702s] creating /home/OSTR/modem_ws2/install/py_pubsub/share/ament_index
+[11.703s] creating /home/OSTR/modem_ws2/install/py_pubsub/share/ament_index/resource_index
+[11.704s] creating /home/OSTR/modem_ws2/install/py_pubsub/share/ament_index/resource_index/packages
+[11.705s] copying resource/py_pubsub -> /home/OSTR/modem_ws2/install/py_pubsub/share/ament_index/resource_index/packages
+[11.707s] copying package.xml -> /home/OSTR/modem_ws2/install/py_pubsub/share/py_pubsub
+[11.708s] running install_egg_info
+[11.921s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[11.932s] running install_scripts
+[13.347s] Installing fishdepth script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.349s] Installing fishhub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.350s] Installing fishrec script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.352s] Installing fishspeed script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.353s] Installing fishtran script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.354s] Installing fishturn script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.356s] Installing hub script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.357s] Installing receive script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.359s] Installing transmit script to /home/OSTR/modem_ws2/install/py_pubsub/lib/py_pubsub
+[13.363s] writing list of installed files to '/home/OSTR/modem_ws2/build/py_pubsub/install.log'
+[13.655s] Invoked command in '/home/OSTR/modem_ws2/src/py_pubsub' returned '0': PYTHONPATH=/home/OSTR/modem_ws2/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/OSTR/modem_ws2/build/py_pubsub/build install --record /home/OSTR/modem_ws2/build/py_pubsub/install.log --single-version-externally-managed install_data

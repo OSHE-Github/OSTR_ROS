@@ -1,0 +1,5 @@
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/fishtemp.py", line 15
+    def main()
+              ^
+SyntaxError: expected ':'
+

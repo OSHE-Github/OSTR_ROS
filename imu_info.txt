@@ -1,0 +1,22 @@
+0.224 Accelerating in the y axis-0.922 Rotating about the y axis-0.929 Rotating about the y axis 
+0.309 Rotating about the y axis
+1.299 Rotating about the x axis
+9.481 Accelerating in the z axis
+0.327 Accelerating in the y axis at 08:54:36
+9.548 Accelerating in the z axis at 08:54:50
+-3.265 Accelerating in the x axis at 11:57:09
+-2.271 Accelerating in the y axis at 11:57:21
+8.061 Accelerating in the z axis at 11:57:23
+-14.738 Rotating about the x axis at 11:57:26
+15.698 Rotating about the y axis at 11:57:29
+32.492 Rotating about the z axis at 11:57:32
+1.3769287109375001 Accelerating in the x axis at 07:27:33
+1.7214599609375 Accelerating in the x axis at 07:39:38
+1.725048828125 Accelerating in the x axis at 07:49:20
+1.7645263671875002 Accelerating in the x axis at 07:52:11
+-0.5682373046875 Accelerating in the y axis at 08:09:20
+-3.5215253118899503 Rotating about the x axis at 08:20:34
+9.35498046875 Accelerating in the z axis at 08:34:43
+9.557153320312501 Accelerating in the z axis at 09:54:30
+9.5882568359375 Accelerating in the z axis at 09:59:17
+9.625341796875 Accelerating in the z axis at 10:02:43

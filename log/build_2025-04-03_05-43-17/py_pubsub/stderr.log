@@ -1,0 +1,5 @@
+  File "/home/OSTR/modem_ws2/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/boyancy_contoler.py", line 20
+    def run(self)
+                 ^
+SyntaxError: expected ':'
+

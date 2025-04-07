@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<node pkg="py_pubsub" exec="fishdepth" />
+	<node pkg="py_pubsub" exec="fishhub" />
+	<node pkg="py_pubsub" exec="fishimu" />
+	<node pkg="py_pubsub" exec="fishspeed" />
+	<node pkg="py_pubsub" exec="fishturn" />
+	<node pkg="py_pubsub" exec="fldigirx" />
+	<node pkg="py_pubsub" exec="fldigitx" />
+	<node pkg="py_pubsub" exec="fishtemp" />
+</launch>
