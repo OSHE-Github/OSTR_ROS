@@ -4,6 +4,11 @@ from std_msgs.msg import String
 import xmlrpc.client
 import time
 
+# Author: Ben Keppers
+# Michigan Technological University 
+# Open Source Hardware Enterprise
+# Open Source Thunniform Robot (fish)
+
 COMMAND_LIST = {  # List of commands mapped to 2-bit values
     "S": "00",
     "D": "01",
