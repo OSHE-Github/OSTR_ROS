@@ -4,6 +4,11 @@ from std_msgs.msg import String
 import xmlrpc.client
 import time
 
+# Author: Ben Keppers
+# Michigan Technological University 
+# Open Source Hardware Enterprise
+# Open Source Thunniform Robot (fish)
+
 class fldigitx(Node):
     def __init__(self):
         super().__init__('fldigitx')
