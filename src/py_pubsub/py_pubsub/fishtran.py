@@ -10,6 +10,8 @@ import numpy as np
 # Open Source Hardware Enterprise
 # Open Source Thunniform Robot (fish)
 
+#this is an outdated part of code that has been replaced with fldigi part
+
 # Parameters 
 SAMPLE_RATE = 44100  # Number of samples per second
 TONE_DURATION = 0.3  # Duration of each bit tone in seconds
