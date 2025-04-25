@@ -1,11 +1,20 @@
-#from w1thermsensor import W1ThermSensor, Unit
-from gpiozero import Servo
-from mpu6050 import MPU6050
 from smbus2 import SMBus
 import time
 
+# Author: Ben Keppers
+# Michigan Technological University 
+# Open Source Hardware Enterprise
+# Open Source Thunniform Robot (fish)
+
+# Library for ADC, PWM Expander, and Motor drivers on the raspberry pi hat
+
+# Many of the below constants are redefined in the sections of
+# code that use them . . . eventually this code should be fixed
+# so that isn't necessary
+
+
 ## Temp sensor
-# Run "sudo dtoverlay w1-gpio gpiopin=4" to enable 1-wire
+# Run "sudo dtoverlay w1-gpio gpiopin=4" to enable 1-wire. Required to use temp sensor
 
 
 ## IMU
@@ -159,7 +168,7 @@ class PWMExpander:
 class motorDriver:
     # pwmexpander - PWMExpander object that controls the IO expander
     # pin1 - PWMExpander pin connected to EN_IN1 pin
-    # pin2 = PWMExpander pin connected to PH_IN2 pin
+    # pin2 - PWMExpander pin connected to PH_IN2 pin
     def __init__(self, pwmexpander, pin1, pin2):
         self.pin = [0,0]
         self.pin[0] = pin1

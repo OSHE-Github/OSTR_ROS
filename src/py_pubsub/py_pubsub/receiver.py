@@ -7,6 +7,11 @@ import numpy as np
 from scipy.fft import fft
 from scipy.signal import butter, filtfilt
 
+# Authors: Ike Alafita & Jacob Herrema
+# Michigan Technological University 
+# Open Source Hardware Enterprise
+# Open Source Thunniform Robot (fish)
+
 # Parameters
 SAMPLE_RATE = 44100
 TONE_DURATION = 0.15

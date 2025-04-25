@@ -4,7 +4,7 @@ from std_msgs.msg import String
 import xmlrpc.client
 import time
 
-# Author: Ben Keppers
+# Author: Ben Keppers & Ike Alafita
 # Michigan Technological University 
 # Open Source Hardware Enterprise
 # Open Source Thunniform Robot (fish)
@@ -29,24 +29,32 @@ class fldigirx(Node):
         
         # connect to fldigi via xmlrpc
         self.fl = xmlrpc.client.ServerProxy("http://127.0.0.1:7362/")
+        
+        # Turn off auto frequency correction
         self.fl.main.set_afc(False)
         self.fl.main.get_afc()
+        
+        # Set operating frequency
         self.fl.modem.set_carrier(1500)
         self.fl.modem.get_carrier()
+        
+        # Set modulation type
         modem = self.fl.modem.set_by_name("MFSK4")
         self.fl.modem.get_name()
-
         self.get_logger().info("Modem: " + modem)
 
+        # Clear the fldigi input buffer
         self.fl.text.clear_tx()
         self.fl.text.clear_rx()
         
-        self.rx_buffer = ""     # initialize a buffer for data rx'd from fldigi
+        # initialize a buffer for data rx'd from fldigi
+        self.rx_buffer = ""
 
         # ros stuff
         self.publisher_command = self.create_publisher(String, '/fish_reciver', 10)
         self.publisher_tx = self.create_publisher(String, 'tx_messages', 10)
         
+        # set up so fldigi is polled at the poling interval set below
         rxpoll_period = 0.5         # polling interval to get rx data from fldigi
         self.rxpoll = self.create_timer(rxpoll_period, self.rxpoll_callback)
         self.get_logger().info("Receiver listening for commands.")
@@ -57,11 +65,11 @@ class fldigirx(Node):
 
 
     def rxpoll_callback(self):
-        self.rx_buffer = self.rx_buffer + str(self.fl.rx.get_data())  # check for new rx data from fldigi
-        startcond = self.rx_buffer.find("MSG")                   # check if start condition's present
+        self.rx_buffer = self.rx_buffer + str(self.fl.rx.get_data())        # check for new rx data from fldigi
+        startcond = self.rx_buffer.find("MSG")                              # check if start condition's present
         if(not(startcond == -1)):
             self.get_logger().info("Message fragment: " + self.rx_buffer)   # print rx'd portion
-            endcond = self.rx_buffer.find("END")                 # check if end condition's present
+            endcond = self.rx_buffer.find("END")                            # check if end condition's present
             if(not(endcond == -1)):
                 # remove start and end conditions
                 self.rx_buffer = self.rx_buffer.replace("MSG","")
@@ -107,13 +115,13 @@ class fldigirx(Node):
                         self.publisher_tx.publish(msg)
                         
                 
-                # send ack
+                # send acknowledgement to controller
                 time.sleep(1)
                 msg = String()
                 msg.data= 'ACK'
                 self.publisher_tx.publish(msg)
 
-                # clear buffer to prepare for next command
+                # clear local buffer to prepare for next command
                 self.rx_buffer=""
 
         # if the beginning of a start condition is not present clear the rx buffer

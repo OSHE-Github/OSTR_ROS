@@ -9,32 +9,34 @@ from smbus2 import SMBus
 import time
 
 
-# Authors: Ike Alafita & Jacob Herrema
+# Authors: Ike Alafita, Jacob Herrema, Ben Keppers
 # Michigan Technological University 
 # Open Source Hardware Enterprise
 # Open Source Thunniform Robot (fish)
 
-# Battery voltage monitoring
+# Battery voltage divider resistor values
 RBATL = 10000
 RBATU = 56000
 
 # ADC constants
-ADDRADC = 0x48
-ADCREF = 3.3
-ADCBATTC = (RBATL + RBATU)/RBATL * (ADCREF/255)
+ADDRADC = 0x48                                      # ADC I2C Address
+ADCREF = 3.3                                        # ADC reference voltage (tied to 3.3V from pi by default)
+ADCBATTC = (RBATL + RBATU)/RBATL * (ADCREF/255)     # conversion factor for battery voltage measurement
 
 
 # Motor current monitoring
 RIPROPI = 1200          # motor driver current sense resistor
 AIPROPI = 0.000450      # motor driver current monitor current gain
-# ADC count to motor current (A)
-ADCMIC = (ADCREF / 255) / (RIPROPI * AIPROPI)
+
+ADCMIC = (ADCREF / 255) / (RIPROPI * AIPROPI)   # ADC count to motor current (A)
 
 #constants
 RESPIN = 6
 PIN = 0
 I2C = SMBus(1)
-ADDRPWM = 0x1C
+ADDRPWM = 0x1C      # PWM chip I2C address    
+
+# motor driver pins
 M1P1 = 2
 M1P2 = 3
 

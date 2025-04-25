@@ -9,17 +9,19 @@ import OSTR_hat_code
 from smbus2 import SMBus
 from datetime import datetime
 
-# Authors: Ike Alafita & Jacob Herrema
+# Authors: Ike Alafita, Jacob Herrema, Ben Keppers
 # Michigan Technological University 
 # Open Source Hardware Enterprise
 # Open Source Thunniform Robot (fish)
 
-RBATL = 10000 # battery constant
-RBATU = 56000 # battery constant
+# Battery voltage divider resistor values
+RBATL = 10000
+RBATU = 56000
 
-ADDRADC = 0x48 # i2c address for adc
-ADCREF = 3.3
-ADCBATTC = (RBATL + RBATU)/RBATL * (ADCREF/255) # battery constant
+# ADC constants
+ADDRADC = 0x48                                      # ADC I2C Address
+ADCREF = 3.3                                        # ADC reference voltage (tied to 3.3V from pi by default)
+ADCBATTC = (RBATL + RBATU)/RBATL * (ADCREF/255)     # conversion factor for battery voltage measurement
 I2C = SMBus(1)
 
 class tempNode(Node):

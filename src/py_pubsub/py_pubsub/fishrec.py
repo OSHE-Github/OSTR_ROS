@@ -7,6 +7,11 @@ import numpy as np
 from scipy.fft import fft
 from scipy.signal import butter, filtfilt
 
+# Authors: Ike Alafita & Jacob Herrema
+# Michigan Technological University 
+# Open Source Hardware Enterprise
+# Open Source Thunniform Robot (fish)
+
 # this is the old unused receiver for the fish that was replaced with fldigi
 
 # Parameters
