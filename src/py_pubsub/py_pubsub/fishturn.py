@@ -22,7 +22,7 @@ I2C = SMBus(1)
 ADDR = 0x1C
 M0P1 = 1
 M0P2 = 0
-MIDDLE = .075
+MIDDLE = .075 # the center of the servo
 FREQUENCY = 50
 
 
@@ -41,47 +41,25 @@ class TurnNode(Node):
         self.servo13.frequency = FREQUENCY
         self.adc = OSTR_hat_code.ADC(ADDRADC, I2C)
 
-        self.subscription = self.create_subscription(Int32,'/fish_turn',self.command_callback,10)
-        self.subscription_death = self.create_subscription(String, 'death',self.death,10)
+        self.subscription = self.create_subscription(Int32,'/fish_turn',self.command_callback,10) # recives turn command
+        self.subscription_death = self.create_subscription(String, 'death',self.death,10) # sends kill command
         self.get_logger().info("Fish turn module initalized")
-       # self.local()
+
         
-    def death(self,msg):
-        self.run(MIDDLE)
+    def death(self,msg): # kills program
+        self.run(MIDDLE) # removes bias 
         hub_node.destroy_node()
         rclpy.shutdown()
-    
-   # def local(self):
-    #    while rclpy.ok():
-     #       print("voltage is"+str(self.adc.read(ADCPIN)*.02013071885))
-      #      data = float(input("set turn"))
-       #     if data < .025:
-        #        data = .025
-         #   if data > .125:
-          #      data = .125
-           # self.run(data)
 
-
-    def command_callback(self, msg):
-
+    def command_callback(self, msg): # converts turn number into turn to send to servo
         turn = msg.data
-        turn = (turn - 7)/ 700
-        self.run(turn+MIDDLE)
+        turn = (turn - 7)/ 700 #convert number 
+        self.run(turn+MIDDLE) # adds middle to the number and sends turn
 
-    def run(self, turn):
+    def run(self, turn): # takes value and biases tail acordingly
         print(turn)
         self.servo13.value = turn
-       # current = self.adc.read(ADCPIN)*.02013071885
-       # angle = MIDDLE
-      #  direction = 0
-       # while abs(current-turn) > .1:
-        #    print("current = "+str(current)+" turn = "+str(turn)+" angle = "+str(angle)+" direction = "+str(direction))
-         #   
-          #  self.servo13.value = angle
-           # time.sleep(.5)
-    #        current = self.adc.read(ADCPIN)*.02013071885
-     #       direction = current-turn
-      #      angle = angle + 0.001 * direction
+      
             
 
 def main():
