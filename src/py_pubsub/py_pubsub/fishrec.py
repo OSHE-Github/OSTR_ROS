@@ -7,6 +7,8 @@ import numpy as np
 from scipy.fft import fft
 from scipy.signal import butter, filtfilt
 
+# this is the old unused receiver for the fish that was replaced with fldigi
+
 # Parameters
 SAMPLE_RATE = 44100
 TONE_DURATION = 0.3
