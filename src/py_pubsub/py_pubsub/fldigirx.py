@@ -4,6 +4,11 @@ from std_msgs.msg import String
 import xmlrpc.client
 import time
 
+# Author: Ben Keppers
+# Michigan Technological University 
+# Open Source Hardware Enterprise
+# Open Source Thunniform Robot (fish)
+
 COMMAND_LIST = {  # List of commands mapped to 2-bit values
     "S": "00",
     "D": "01",
@@ -72,22 +77,19 @@ class fldigirx(Node):
                     self.publish_command(command_string)
                     rclpy.shutdown()
                 else:
-                    command_string = COMMAND_LIST.get(user_input, "X")
+                    command_string = COMMAND_LIST.get(user_input, "X") # check to make sure string is correct, otherwise returns X
                     if command_string != "X":
-                        if command_string == "R":
+                        if command_string == "R": # translates the right and left into one turn command
                             num_input = hex(int(num_input, 16) + 7)[2:].upper()
                         elif command_string == "L":
-                            num_input = hex(int(abs(num_input, 16) - 14))[2:].upper()
+                            num_input = hex(int(abs(num_input, 16)))[2:].upper()
 
-                        if command_string == "C":
-                                self.publisher_terminal(COMMAND.get(num_input))
-                        
-                        number_string = NUMBER_LIST.get(num_input, "X")
-                        if number_string != "X":
+                        number_string = NUMBER_LIST.get(num_input, "X") # checks number and returns X if out of scope
+                        if number_string != "X": # verifies number isnt bad and sends message to fishhub
                             command_string += number_string
                             msg = String()
                             msg.data = command_string
-                            self.publisher_command.publish(msg)
+                            self.publisher_command.publish(msg) # sends msg to fishhub
                         else:
                             self.get_logger().warn("Invalid Hex Number!")
                             
