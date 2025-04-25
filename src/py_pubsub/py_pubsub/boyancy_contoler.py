@@ -4,6 +4,8 @@ from rclpy.node import Node
 from std_msgs.msg import Int32, String
 import time
 
+# This is a test code that just autonomously runs the program trying different things.
+
 class boyancyNode(Node):
     def __init__(self):
         super().__init__('fish_boyancy')
