@@ -8,6 +8,8 @@ import numpy as np
 from scipy.fft import fft
 from scipy.signal import butter, filtfilt
 
+#this is an old file that has been replaced with fldigi
+
 # Parameters
 SAMPLE_RATE = 44100
 TONE_DURATION = 0.2
