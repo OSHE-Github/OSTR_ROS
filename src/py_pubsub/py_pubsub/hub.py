@@ -8,6 +8,8 @@ from std_msgs.msg import String
 # Open Source Hardware Enterprise
 # Open Source Thunniform Robot (fish)
 
+#this is an old hub file thats been replaced with fldigi
+
 COMMAND_LIST = {  # List of commands mapped to 2-bit values
     "S": "00",
     "D": "01",
