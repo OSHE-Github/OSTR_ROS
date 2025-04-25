@@ -31,30 +31,26 @@ MDMRB = 3       # Reverse, Brake
 class SpeedNode(Node):
     def __init__(self):
         super().__init__('fish_speed')
-        self.PWM = OSTR_hat_code.PWMExpander(ADDR, I2C)
-        self.motor = OSTR_hat_code.motorDriver(self.PWM, M0P1, M0P2)
-        self.subscription = self.create_subscription(
-            Int32,
-            '/fish_speed',
-            self.command_callback,
-            10)
+        self.PWM = OSTR_hat_code.PWMExpander(ADDR, I2C) # instantiates PWM module
+        self.motor = OSTR_hat_code.motorDriver(self.PWM, M0P1, M0P2) # instantiates motor
+        self.subscription = self.create_subscription(Int32,'/fish_speed',self.command_callback,10) # recives speed
         self.subscription  # prevent unused variable warning
        # self.subscription_death = self.create_subscription(String, 'death',self.death,10)
         self.get_logger().info("Fish speed module initalized")
 
-    def death(self,msg):
+    def death(self,msg): # recives death command
         self.run(0)
         hub_node.destroy_node()
         rclpy.shutdown()
 
-    def command_callback(self, msg):
+    def command_callback(self, msg): # recives speed and makes modifies it
 
         speed = msg.data
-        speed = speed * 16
+        speed = speed * 16 # turns speed into value from 0-255
         print(speed)
         self.run(speed)
 
-    def run(self, speed):
+    def run(self, speed): # sets speed to provided number
        self.motor.go(MDMRB, speed)
 
 
