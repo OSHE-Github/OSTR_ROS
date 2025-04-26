@@ -1,4 +1,4 @@
-# This is the ROS 2 workspace used for the Open Source Thunniform Robot project
+# ROS 2 workspace used for the Open Source Thunniform Robot project
 
 Check us out and find more documentation at oshe.io!
 
@@ -10,7 +10,7 @@ Check us out and find more documentation at oshe.io!
 * minimalstartlaunch.xml -- This starts all non-communication related nodes
 
 
-# Startup
+## Startup
 
 * run "colcon build" from the workspace directory
 * run "source install/setup.bash" from the workspace directory
